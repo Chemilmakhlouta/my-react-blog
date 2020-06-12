@@ -6,12 +6,23 @@
     justify-content: space-between;
     color: $text-color;
 
-    span {
+    .menu-title {
         font-size: 24px;
         font-weight: 500;
         display: flex;
         align-items: center;
         margin-left: 30px;
+    }
+
+    .menu-content-container {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+
+    .ant-avatar {
+        background: $background;
+        border: 1px solid $border;
     }
 
     ul {
@@ -22,6 +33,7 @@
         display: flex;
         list-style-type: none;
         margin-right: 20px;
+        align-items: center;
 
         a {
             text-decoration: none;
