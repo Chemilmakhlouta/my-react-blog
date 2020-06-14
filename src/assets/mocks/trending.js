@@ -11,7 +11,7 @@ export default [
     {
         title: 'GraphQL vs REST',
         date: moment().format('MMMM DD, YYYY'),
-        categories: ['GraphQL', 'REST', 'Javascript'],
+        categories: ['Tech Culture'],
         link: '#',
         image: 'graphQL.jpg'
     },
